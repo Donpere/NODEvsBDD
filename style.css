@@ -1,0 +1,9 @@
+/* Exemple de fichier CSS (style.css) */
+root {
+    font-family: Arial, sans-serif;
+}
+
+element, anotherElement {
+    color: blue;
+    margin-bottom: 10px;
+}

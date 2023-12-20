@@ -1,0 +1,25 @@
+EXPRESS
+
+app.use 
+
+La méthode app.use est utilisée pour définir des middleware dans Express. Dans l'exemple de la gestion des erreurs 404, app.use est utilisé pour définir un middleware qui s'applique à toutes les requêtes. Cette méthode permet de spécifier une fonction middleware qui sera exécutée chaque fois qu'une requête est effectuée, indépendamment de la méthode HTTP (GET, POST, etc.) utilisée.
+
+La syntaxe générale de app.use est la suivante :
+
+javascript
+Copy code
+app.use([path,] middleware);
+path (optionnel) : Spécifie un chemin ou un préfixe de chemin pour lequel le middleware s'appliquera.
+middleware : La fonction middleware à exécuter.
+Dans l'exemple de la gestion des erreurs 404, il n'y a pas de chemin spécifique (path est omis), ce qui signifie que cette fonction middleware s'applique à toutes les requêtes qui n'ont pas été traitées par les routes précédentes.
+
+Si vous souhaitez spécifier un chemin pour lequel le middleware doit s'appliquer, vous pouvez le faire comme ceci :
+
+javascript
+Copy code
+app.use('/chemin-special', middleware);
+D'un autre côté, la méthode app.get est utilisée spécifiquement pour gérer les requêtes HTTP GET. Elle est utilisée lorsque vous définissez une route pour un chemin spécifique et que vous souhaitez exécuter une fonction spécifique en réponse à une requête GET à ce chemin.
+
+En résumé, app.use est plus général et peut être utilisé pour définir des middleware qui s'appliquent à toutes les requêtes, tandis que app.get est spécifique aux requêtes GET sur un chemin particulier. Dans le cas de la gestion des erreurs 404, app.use est utilisé pour définir un middleware global qui gère toutes les routes non définies précédemment.
+
+------------------------------------------------------------------------------------

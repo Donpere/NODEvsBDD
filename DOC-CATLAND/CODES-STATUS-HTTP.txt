@@ -1,0 +1,204 @@
+LISTE CODES STATUS HTTP
+
+Les codes de statut HTTP sont comme de brèves notes provenant de serveurs qui sont placées en haut des pages Web, mais qui n’en font pas partie. Ce sont des messages provenant de serveurs qui vous indiquent comment les différentes demandes sont reçues par les serveurs.
+
+En gros, chaque fois que les navigateurs interagissent avec les serveurs, de tels messages sont renvoyés. Cependant, les utilisateurs peuvent ne pas les voir du tout dans de nombreux cas. Mais si vous possédez ou optimisez des sites Web, il est extrêmement important que vous compreniez les codes de statut HTTP. Ils sont essentiels lorsqu’il s’agit de diagnostiquer et de corriger diverses erreurs de configuration sur votre site Web.
+
+Note complémentaire : Si vous souhaitez vérifier les codes de statut des pages web de votre site, et obtenir un audit SEO détaillé, vous pouvez utiliser l’outil d’audit de site web de SE Ranking.
+
+Quelles sont les listes des codes HTTP ?
+Chaque demande comporte des données de réponse du serveur HTTP qui incluent un nombre à trois chiffres qui indique le résultat de la demande. Ces codes de réponse sont divisés en 5 listes de codes HTTP distinctes. Passons rapidement en revue chacune d’entre elles :
+
+100 : INFORMATIF
+Les codes de statut 100 sont des codes informatifs qui permettent aux clients de savoir que, jusqu’à présent, tout se passe comme prévu. Le serveur a reçu la demande et est en train de la traiter, mais aucune réponse n’est encore disponible. Ces codes HTTP ne sont généralement pas affichés à l’écran, mais servent de codes internes auxquels seuls les navigateurs font référence.
+
+200 : REUSSITE
+Les codes de statut 200 sont des codes de réussite qui indiquent que la demande a été reçue, comprise, acceptée et traitée avec succès par le client. Encore une fois, ces codes de statut sont utilisés en interne par les navigateurs pour confirmer le succès de la demande et son état actuel.
+
+300 : REDIRECTION
+Les codes de statut 300 sont des codes de redirection qui indiquent simplement que le contenu demandé a été temporairement déplacé vers une autre URL.
+
+400 : ERROR CLIENT
+Les codes de statut 400 sont des erreurs du client qui signalent un problème avec la demande. Ils sont souvent liés à des problèmes de sécurité, mais peuvent également être renvoyés si le client expire ou si la demande n’a pas été saisie correctement.
+
+500 : ERROR SERVER
+Les codes de statut 500 sont des erreurs de serveur qui indiquent que le serveur a trouvé la page Web demandée, mais ne peut pas autoriser l’accès à celle-ci. En fin de compte, la demande ne peut pas être traitée.
+
+Je tiens à attirer votre attention sur le fait que tous les statuts et codes d’erreur ne sont pas visibles. En fait, la plupart d’entre eux ne sont pas du tout affichés aux utilisateurs. Vous pouvez toutefois les vérifier en inspectant une page via votre navigateur (Ctrl+Shift+C pour ouvrir les outils de développement Chrome en mode Inspect Element). Accédez simplement à l’onglet Réseau et actualisez la page pour obtenir la liste des statuts de chaque élément de la page, y compris la page elle-même :
+
+Les codes de statut les plus importants pour les référenceurs
+Inutile de dire que si vous voulez savoir comment faire du référencement sur une page, commencez par vous assurer que votre site Web est exempt de problèmes de code de statut HTTP.
+
+Avant de continuer, je tiens à souligner qu’il existe plus de 40 codes de statut de serveur différents, mais il est probable que vous n’en rencontrerez pas plus d’une poignée dans votre travail. Donc, si vous êtes responsable des processus de référencement d’un site Web et de pages, il est impératif que vous les compreniez afin de savoir quoi faire lorsque vous êtes confronté à des problèmes de code de statut HTTP. 
+
+Sans plus attendre, voici une liste des codes de statut HTTP les plus courants :
+
+301 Déplacé définitivement
+Le code status HTTP 301 Déplacé définitivement (Moved Permanently) indique que l’URL demandée par le client a été déplacée vers un nouvel emplacement. Les navigateurs suivent les redirections 301 sans demander aux utilisateurs d’effectuer une action.
+
+Le code de statut 301 est généralement utilisé lors du passage d’un site Web du protocole HTTP au protocole HTTPS, mais il est également utilisé lors de la configuration de l’accès au miroir du site Web, lors de la configuration de la barre oblique de fin d’URL, ainsi que lors du transfert d’une partie ou de la totalité du site Web vers un nouveau domaine. 
+
+Cette redirection est fortement recommandée si votre objectif est de transférer le classement SEO et l’autorité d’une ancienne page Web vers une nouvelle. Mais le simple fait de modifier l’URL sans mettre à jour le contenu aura un impact négatif sur l’indexation des nouvelles modifications. Pensez-y : vous envoyez un nouveau signal aux moteurs de recherche indiquant que vous souhaitez que la nouvelle page apparaisse dans les résultats de recherche, mais comme l’ancienne URL a beaucoup d’autorité, Google ne souhaite pas la remplacer par la nouvelle page.
+
+Conseil de pro : ne redirigez jamais les utilisateurs depuis une URL supprimée vers votre page d’accueil. Ces redirections sont traitées comme des 404 souples par Google, ce qui signifie que le géant de la recherche n’y prêtera aucune attention, ne transmettra pas le PageRank ni aucun autre signal de l’ancienne URL à la nouvelle. Dirigez plutôt les utilisateurs vers une page similaire à la page de destination. 
+
+De plus, évitez les boucles de redirection car elles empêchent les utilisateurs d’accéder à la page cible. En d’autres termes, évitez d’utiliser des chaînes de liens qui incluent un lien redirigé vers une URL qui fait déjà partie de la même chaîne.
+
+Il est également important de ne pas utiliser plusieurs redirections, car chaque nouvelle redirection entraîne une perte de poids dans le classement, et il est possible que Google n’indexe pas l’intégralité de la chaîne de liens. 
+
+Il suffit donc de supprimer les intermédiaires et de rediriger la première page directement vers la dernière que vous avez configurée. De plus, vous pouvez supprimer les redirections 301 au fil du temps pour réduire la charge du serveur.
+
+302 Trouvé
+Le code de statut 302 Trouvé (Found) est très similaire au code 301, mais le code de statut 302 a été créé pour les situations dans lesquelles un site Web n’est pas déplacé définitivement, mais uniquement temporairement.
+
+302 Found meme
+En gros, les navigateurs suivent automatiquement le code 302, qui indique que la page a été trouvée avec succès, mais qu’elle a été temporairement déplacée vers un nouvel emplacement. En règle générale, il ne doit être utilisé que pour de courts processus de maintenance du contenu, lorsque vous avez l’intention de ramener les visiteurs de votre site Web vers l’ancienne page Web.
+
+Lorsque vous configurez la redirection 302, vous indiquez aux moteurs de recherche que vous avez l’intention de réutiliser l’ancienne URL à l’avenir. Par conséquent, la nouvelle page temporaire ne reçoit aucune valeur de trafic ni aucune autorité de page à partir de l’URL d’origine. 
+
+Conseil de pro : si vous laissez la redirection 302 en place trop longtemps, Google finira par la traiter comme s’il s’agissait d’une redirection 301. De plus, assurez-vous que votre site Web ne contient pas de redirections 302 censées être 301, car il s’agit d’une erreur très courante.
+
+304 Non modifié
+Le navigateur voit le code de statut HTTP304 Non modifié (Not Modified) lorsqu’une page web est à jour par rapport à la copie mise en cache sur le serveur. Cela signifie essentiellement que la page n’a pas changé depuis la dernière visite. 
+
+Plus précisément, lorsque les navigateurs stockent des données dans leur cache, ils stockent également les données d’en-tête Last-Modified. Cela permet à son tour aux navigateurs de savoir exactement quand la page a été modifiée pour la dernière fois. Et lorsque les moteurs de recherche examinent la page et constatent que les deux valeurs d’en-tête sont identiques, le serveur renvoie le code 304.
+
+304 Not Modified meme
+Ce code peut en fait être utilisé pour accélérer l’indexation du site Web. Par exemple, lorsque les robots d’exploration parcourent votre site Web, ils tombent sur plusieurs pages. Et s’ils découvrent qu’une ou plusieurs pages n’ont pas été modifiées de quelque façon que ce soit, ils les ignoreront, ce qui permettra à d’autres pages d’être indexées.
+
+Conseil de pro : Chaque expert en référencement s’attend à ce que le code de statut 200 OK indique que la demande est réussie, mais le code HTTP 304 signifie fondamentalement la même chose. En règle générale, les nouvelles pages et les visites de la première page devraient recevoir le code 200, et chaque visite suivante devrait produire le code 304.
+
+307 Redirection temporaire
+Un status code HTTP de redirection temporaire 307 (Temporary Redirect) indique que l’URL demandée a été temporairement déplacée et que l’URL d’origine doit être utilisée par l’agent utilisateur pour les demandes futures. 
+
+Notez que la seule différence entre un code de statut 302 et un code de statut 307 est que l’agent utilisateur doit demander la nouvelle URL avec la même requête HTTP que celle utilisée pour demander l’URL d’origine.
+
+307 Temporary Redirect meme
+Conseil de pro : les référenceurs doivent utiliser ce code de statut s’ils ont besoin de rediriger les visiteurs vers une nouvelle URL, puis de les ramener à l’URL d’origine une fois que toutes les modifications ou mises à jour du site Web ont été effectuées avec succès. Il est préférable d’utiliser ce code lorsque vous ne souhaitez pas transférer le contenu de votre lien SEO de l’ancienne URL vers une nouvelle.
+
+308 Redirection permanente
+Le code de réponse de l’état de redirection 308 (Permanent Redirect) indique que la page Web demandée a été définitivement déplacée vers l’URL spécifiée dans les en-têtes Location.
+
+Cela signifie que la page Web se trouve désormais de manière permanente sur un autre URI, spécifié par l’en-tête Location : HTTP Response. Cela utilise la même sémantique que le code de réponse HTTP 301, à l’exception du fait que l’agent utilisateur ne doit pas modifier la méthode HTTP utilisée.
+
+308 Permanent Redirect meme
+Ainsi, si un POST a été utilisé dans la première requête, un POST doit être utilisé dans la seconde requête.
+
+Conseil de pro : Pour les experts en référencement, cela permet aux moteurs de recherche de savoir que la page Web et toutes ses ressources ont été redirigées de façon permanente. En ce qui concerne le jus du lien, il est transmis à la page redirigée.
+
+403 Interdit
+Le code de statut 403 Interdit (Forbidden) indique que l’utilisateur n’est pas autorisé à accéder à la page Web demandée. Celui-ci est assez simple.
+
+403 Forbidden meme
+Ce code de statut peut apparaître pour plusieurs raisons. Par exemple, l’utilisateur est connecté au site Web, mais ne dispose pas des autorisations nécessaires pour accéder à son réseau interne fermé. 
+
+Le code de statut 403 peut également apparaître dans d’autres cas, notamment lorsque le fichier d’index de la page principale est incorrect. Le fichier d’index doit s’appeler « index » et porter les extensions *.shtml, *.html, *.htm, *.phtml ou *.php. Assurez-vous donc de vérifier que c’est bien le cas dans votre cas.
+
+De plus, lorsque vous passez au protocole HTTPS, le code de statut 403 peut apparaître si le cache du système de noms de domaine (DNS) n’a pas encore été mis à jour. Les meilleures pratiques suggèrent d’attendre que le cache soit mis à jour, mais si c’est une question de vie ou de mort, videz immédiatement votre cache DNS.
+
+Conseil de pro : les pages qui produisent le code de réponse 403 seront finalement supprimées de l’index. C’est pourquoi Google conseille d’utiliser le code de statut 404 à cette fin.
+
+404 Introuvable
+L’un des codes erreurs HTTP les plus connus en matière de référencement est probablement l’erreur 404 Introuvable (Not Found). Ce code indique que le serveur n’a rien trouvé correspondant à l’URL demandée, mais qu’une connexion réseau entre le serveur et le client a été établie avec succès.
+
+404 Not Found meme
+Maintenant, ne vous inquiétez pas si vous voyez un grand nombre de pages 404 dans votre compte Google Search Console. Google vous indique simplement quelles pages sont supprimées et c’est à vous de vérifier si tout va bien. Veillez toutefois à supprimer tous les liens vers les pages supprimées de votre site, afin de ne pas embrouiller les visiteurs lorsqu’ils naviguent sur le site.
+
+Ce code d’erreur HTTP s’affiche généralement lorsque nous saisissons manuellement une URL incorrecte dans le navigateur et que, par conséquent, nous essayons d’accéder à une page qui n’existe pas. Toutefois, il peut également apparaître si l’administrateur du serveur a supprimé un fichier sans d’abord rediriger l’URL vers un nouvel emplacement valide. Pour résoudre le problème, vous devez vérifier l’URL demandée, la corriger vous-même ou attendre que l’administrateur le fasse.
+
+Conseil de pro : Les pages qui affichent le code erreur HTTP 404 ne sont pas indexées et ne transmettent aucune autorité. C’est pourquoi certains experts en référencement utilisent plutôt une page 404 souple qui renvoie une page informant les utilisateurs que la page n’existe pas avec le code HTTP 200. Mais cela est considéré comme une mauvaise pratique car le code de réussite indique à Google qu’il existe une vraie page à cette URL. En fin de compte, la page peut finir par être répertoriée dans les SERP, et le géant de la recherche continuera ses tentatives d’exploration d’URL inexistantes au lieu d’explorer vos pages réelles.
+
+Configuration de la page 404 pour votre site
+La page 404 ressemblait autrefois à un solide mur de code, mais maintenant que les temps ont changé, elle est devenue beaucoup plus créative. Cependant, vous devez garder à l’esprit que les utilisateurs sont venus sur votre page Web avec une demande spécifique et que votre travail ne consiste pas simplement à les divertir avec des images intéressantes, mais à les aider à trouver ce qu’ils recherchent. Assurez-vous donc d’ajouter la navigation de votre site Web ou un formulaire de contact à vos pages 404, surtout si elles génèrent toujours du trafic.
+
+Exemple de page 404
+Désormais, si votre système de gestion de contenu n’a pas généré de page 404 pour votre site Web, vous pouvez en créer une vous-même. Voici comment procéder :
+
+Page 404 via htaccess
+Le moyen le plus simple de configurer une page d’erreur 404 sur votre site Web consiste à saisir directement le message d’erreur, tel que ErrorDocument 404 « Not Found », dans le fichier .htaccess lui-même. Vous devriez obtenir quelque chose comme ceci :
+
+Exemple de message 404 Not Found
+Page 404 via PHP
+Pour ce qui est de la création d’une page 404 via PHP, en quelques mots, vous pouvez utiliser la fonction header.
+
+Page 404 via WordPress
+Plusieurs options s’offrent à vous lorsqu’il s’agit de créer une page 404 personnalisée dans WordPress :
+
+Modifiez la page 404 existante proposée par votre thème.
+Ajoutez une page 404 personnalisée si votre thème n’en propose pas.
+Utilisez un plugin 404.
+Vous pouvez obtenir tous les détails sur la façon de procéder ici.
+
+410 Disparu
+Le code de statut 410 Disparu (Gone) indique que le site Web demandé n’est plus disponible sur le serveur et qu’aucune adresse de transfert n’est connue. Et comme l’outil d’inspection des URL de Google étiquette également 410 codes comme 404, vous finirez par voir encore plus d’erreurs de page 404 dans votre console de recherche Google.
+
+410 Gone meme
+Ce status code HTTP est généralement utilisé sur les pages peu fiables, qui ne contiennent aucun lien, ainsi que sur les pages supprimées définitivement. Supposons, par exemple, que vous ne proposez plus un service particulier sur votre site Web et que vous souhaitiez arrêter de générer du trafic lié à la recherche d’une page inexistante. C’est là que le code de statut 410 entre en jeu.
+
+410 message example
+Étant donné que Google ne traite pas techniquement les erreurs 404 et 410 de la même manière, vous pouvez utiliser une page 410 personnalisée temporaire pour fournir aux robots des moteurs de recherche un statut plus précis et des informations indiquant que l’ancien lien doit être supprimé de l’index d’exploration. Par conséquent, cela peut arrêter l’afflux de trafic inutile et non pertinent.
+
+Mais réfléchissez-y à deux fois avant de supprimer définitivement une page. Si vous n’êtes pas sûr, vous pouvez toujours configurer une redirection et continuer à voir du trafic. Toutefois, si vous décidez de supprimer complètement une page, soyez à l’affût des liens pointant vers la page qui sera bientôt supprimée et qui seront cassés une fois la page supprimée.
+
+500 Erreur de serveur interne
+Le code de statut 500 (Internal Server Error) envoie un signal aux navigateurs indiquant qu’une erreur interne du serveur rend le site Web inaccessible. Malheureusement, ce code de statut n’explique pas spécifiquement la raison de l’erreur. En principe, la demande ne peut pas être satisfaite.
+
+500 Internal Server Error meme
+Conseil de pro : Certains administrateurs de sites Web enregistrent ces réponses d’erreur sous la forme d’un code de statut 500 contenant plus d’informations sur la demande afin d’aider à corriger l’erreur et à empêcher qu’elle ne se reproduise à l’avenir.
+
+Ce que vous pouvez faire, c’est actualiser la page, vérifier l’URL utilisée et votre connexion Internet, puis vérifier les autorisations dont vous disposez dans vos fichiers PHP et CGI, et générer un fichier .htaccess propre.
+
+502 Mauvaise passerelle
+Chaque fois que vous visitez un site Web, votre navigateur envoie une demande à un serveur Web. Toutes les demandes ne sont pas renvoyées avec succès. Le code de statut 502 (Bad Gateway) indique que le serveur a reçu une réponse non valide d’un serveur entrant auquel il a accédé en agissant comme une passerelle ou un proxy et en tentant de répondre à la demande.
+
+502 Bad Gateway meme
+Conseil de pro : Une mauvaise passerelle peut en fait faire référence à de nombreuses choses différentes concernant le réseau. En fait, il ne s’agit pas d’une erreur facile à corriger car elle nécessite de travailler avec le serveur Web ou les proxys auxquels vous essayez d’accéder.
+
+Après vous être assuré que vous utilisez la bonne URL, videz le cache de votre navigateur, videz le DNS et contactez votre hébergeur pour résoudre les problèmes liés à vos actifs numériques.
+
+503 Service non disponible
+Le code de statut 503 Service non disponible (Service Unavailable) indique que le serveur du site Web est actuellement indisponible et, par conséquent, ne peut pas traiter la demande du client entrante.
+
+503 Service Unavailable meme
+Dans la grande majorité des cas, le code de statut 503 apparaît si le serveur est trop occupé, s’il dépasse la limite du nombre d’utilisateurs simultanés ou si le serveur fait l’objet de travaux de maintenance.
+
+Il peut également être utilisé dans d’autres cas, par exemple si : 
+
+Il y a une attaque DDOS sur le site Web,
+Le site Web utilise de nombreux scripts ou éléments externes tels que des widgets et des images,
+L’extraction des données demandées de la base de données prend trop de temps, ou
+De nombreux robots de recherche ou logiciels d’analyse font des requêtes simultanées.
+Idéalement, la page 503 devrait contenir un message précisant l’heure exacte à laquelle le visiteur doit revenir, mais c’est rarement le cas.
+
+Exemple de message 503
+Enfin et surtout, le code de statut 503 empêche les moteurs de recherche d’indexer le site. De plus, cela indique aux moteurs de recherche que le site est mal entretenu car les utilisateurs ne peuvent pas trouver ce qu’ils recherchent. Il est donc important que ces problèmes soient résolus le plus rapidement possible. Dans le cas contraire, cela affectera votre classement général dans les recherches.
+
+Configuration de la page 503 via PHP
+Voici à quoi ressemble le code de statut 503 en PHP :
+
+<?php
+header(“HTTP/1.1 503 Service Temporarily Unavailable”);
+header(“Status: 503 Service Temporarily Unavailable”);
+header(“Retry-After: 3600”);
+?>
+
+Ici, vous pouvez en savoir plus à ce sujet.
+
+Vérification de la réponse du serveur à l’aide de l’audit du site Web
+Pour rester au courant de tout ce qui se passe sur votre site Web, vous devez toujours garder un œil sur vos pages Web et surveiller leurs codes de statut. Bien sûr, vous pouvez utiliser l’extension Live HTTP Headers pour Chrome et le rapport de couverture des index de la console de recherche Google pour consulter les codes de statut de vos pages Web, mais il est préférable de les repérer et de les analyser avant que les moteurs de recherche ne le fassent. C’est pourquoi votre site Web a besoin d’un audit, et vous pouvez facilement en exécuter un à l’aide de l’outil d’audit de site Web de SE Ranking.
+
+ANALYSEZ VOTRE SITE WEB
+Découvrez les erreurs principales de votre site
+Enter a domain / URL
+Analyser
+En plus de pouvoir identifier et identifier rapidement les erreurs du site Web, l’outil d’audit de site Web génère également une liste de suggestions qui peuvent aider les développeurs, les créateurs de contenu et les concepteurs Web à faire leur travail avec précision. 
+
+D’ailleurs, vous pouvez profiter de l’essai gratuit pour essayer toutes les fonctionnalités.
+
+Au fur et à mesure que vous parcourez le rapport d’audit, vous verrez une ventilation détaillée de tout ce qui va bien et ne va pas avec votre site Web, y compris son état de référencement, son analyse des pages, des méta, du contenu et des liens. Le meilleur, c’est que vous pouvez facilement savoir si votre site contient des pages avec un code de statut inattendu.
+
+Accédez simplement à l’onglet Crawled Pages pour analyser les codes de statut de vos pages, sans aucune distraction, soit directement dans la plateforme, soit en exportant un fichier XLS :
+
+Codes d'état dans le rapport Pages explorées d'audit de site Web
+Vous devrez toujours implémenter les modifications manuellement, mais les trouver ne sera plus une tâche ardue. Une fois que vous avez optimisé les codes de statut de vos pages Web à l’aide de l’audit du site Web, informez-en Google afin qu’il puisse les vérifier et les mettre à jour pour que tout le monde puisse les voir !
+
